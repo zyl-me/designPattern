@@ -1,6 +1,6 @@
 package com.designPattern.factoryMethod;
 
-public class NorthBananaFactory extends FruitFactory {
+public class BananaFactory extends FruitFactory {
 
 	@Override
 	public Fruit getFruit() {

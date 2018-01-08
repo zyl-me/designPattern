@@ -11,26 +11,16 @@ public class MainTest {
 	public static void main(String[] args)
 			throws ClassNotFoundException, InstantiationException, IllegalAccessException {
 
-		NorthAppleFactory northAppleFactory = new NorthAppleFactory();
-		SouthAppleFactory southAppleFactory = new SouthAppleFactory();
+		AppleFactory northAppleFactory = new AppleFactory();
 
 		Fruit northApple = northAppleFactory.getFruit();
 
 		northApple.eatFruit();
 
-		Fruit southApple = southAppleFactory.getFruit();
-
-		southApple.eatFruit();
-
-		NorthBananaFactory northBananaFactory = new NorthBananaFactory();
-		SouthBananaFactory southBananaFactory = new SouthBananaFactory();
+		BananaFactory northBananaFactory = new BananaFactory();
 
 		Fruit northBanana = northBananaFactory.getFruit();
 		northBanana.eatFruit();
-
-		Fruit southBanana = southBananaFactory.getFruit();
-
-		southBanana.eatFruit();
 
 	}
 

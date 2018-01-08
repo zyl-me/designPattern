@@ -3,7 +3,7 @@ package com.designPattern.factoryMethod;
 public class SouthAppleFactory extends FruitFactory {
 
 	@Override
-	public Fruit getFruit(String type) {
+	public Fruit getFruit() {
 
 		System.out.println("采摘南方苹果");
 

@@ -8,6 +8,6 @@ public abstract class FruitFactory {
 	 * @param type
 	 * @return
 	 */
-	public abstract Fruit getFruit(String type);
+	public abstract Fruit getFruit();
 
 }

@@ -14,7 +14,7 @@ public class MainTest2 {
 		Person2 person1 = new Person2();
 
 		person1.setId("001");
-		person1.setName("уехЩ");
+		person1.setName("wwe");
 
 		String friend1 = "22";
 

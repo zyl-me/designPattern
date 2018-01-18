@@ -11,7 +11,7 @@ public class MainTest1 {
 		Person1 person1 = new Person1();
 
 		person1.setId("001");
-		person1.setName("уехЩ");
+		person1.setName("wew");
 
 		Person1 person2 = person1.clone();
 

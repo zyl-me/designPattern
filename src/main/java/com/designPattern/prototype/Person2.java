@@ -36,7 +36,7 @@ public class Person2 implements Cloneable {
 	}
 
 	/**
-	 * ��ȿ�¡
+	 * 深度克隆
 	 */
 	public Person2 clone() {
 

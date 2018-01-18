@@ -23,7 +23,7 @@ public class Person1 implements Cloneable {
 	}
 
 	/***
-	 * ǳ�ȿ�¡
+	 * 浅度克隆
 	 */
 	public Person1 clone() {
 
